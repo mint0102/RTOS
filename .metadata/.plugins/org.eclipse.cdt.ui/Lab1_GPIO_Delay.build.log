@@ -1,0 +1,10 @@
+11:40:14 **** Incremental Build of configuration Debug for project Lab1_GPIO_Delay ****
+make -j8 all 
+arm-none-eabi-size  Lab1_GPIO_Delay.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6344	     28	   1572	   7944	   1f08	Lab1_GPIO_Delay.elf
+Finished building: default.size.stdout
+ 
+
+11:40:14 Build Finished. 0 errors, 0 warnings. (took 408ms)
+

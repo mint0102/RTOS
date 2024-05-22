@@ -1,0 +1,21 @@
+09:25:37 **** Incremental Build of configuration Debug for project Project2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Project2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM\CMSIS\Project2\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Project2.elf
+ 
+arm-none-eabi-size  Project2.elf 
+arm-none-eabi-objdump -h -S Project2.elf  > "Project2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23520	    116	  18356	  41992	   a408	Project2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Project2.list
+ 
+09:25:41 **** Incremental Build of configuration Debug for project Project2 ****
+make -j8 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23520	    116	  18356	  41992	   a408	Project2.elf
+Finished building: default.size.stdout
+ 

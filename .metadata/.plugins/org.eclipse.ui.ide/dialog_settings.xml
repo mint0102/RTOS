@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\STM\CMSIS"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab5_FSM_Exercise\Lab5_FSM_PasswordDoor"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab5_FSM_Exercise\Lab5_FSM_TrafficLight"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab8_UART"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab7_ADC_PWM"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab6_I2C_RealTimeClock"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab5_FSM_Exercise"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab4_FSM"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab3_LCD_Button"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab2_Timer"/>
+			<item value="D:\STM\MCU_F4\VDK_KitTN_BKIT_Arm4-main\Lab1_GPIO_Delay"/>
+		</list>
+	</section>
+</section>
